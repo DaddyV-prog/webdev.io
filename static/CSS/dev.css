@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-size: 62.5%;
+    background-image: url(anonymous-thumb.jpg);
+    width: inherit;
+    
+}
+.header{
+    width: inherit;
+    /* height: 100px;  */
+    background-color: black;
+    color: white;
+    
+}
+nav{
+    display: flex;
+    justify-content: end;
+}
+.nav_item{
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#background_image{
+    /* width: inherit; */
+    width: 960px;
+    height: 500px;
+    position: relative;
+}
+.webdev {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+}
+.view_work, .hire_me{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-small;
+    /* border: 1px solid black; */
+    /* border-radius: 25%; */
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    cursor: pointer;
+}
+.hire_me{
+    left: 350px;
+}
+footer{
+    width: inherit;
+    height: 30vh;
+    background-color: black;
+    position: relative;
+    top: 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.about, em{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight:bold ;
+    position: absolute;
+    left: 400px;
+    margin: 0;
+    padding: 20px;
+}
+em{
+    font-style: normal;
+    color: red;
+    left: 125px;
+    padding: 0;
+}
+.write_up, .write_up2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-small;
+    font-style: oblique;
+    position: absolute;
+    left: 300px;
+    top: 80px;
+    opacity: 0.8;
+    color: white;
+}
+.write_up2{
+    top: 93px;
+    left: 400px;
+    
+}
