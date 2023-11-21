@@ -70,11 +70,12 @@ nav{
 
 }
 #background_image{
-    /* width: inherit; */
-    background-size: inherit;
+    width: 960px;
+    background-size: cover;
     height: 550px;
     position: relative;
     background-color: var(--bg-black);
+    background-position: center;
 }
 .webdev {
     font-family: Georgia, 'Times New Roman', Times, serif;
