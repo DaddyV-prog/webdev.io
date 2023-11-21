@@ -65,13 +65,13 @@ nav{
 .nav_item{
     padding: 5px;
     cursor: pointer;
-    margin-top: 1px;
+    margin-top: 20px;
     margin-left: 20px;
 
 }
 #background_image{
     /* width: inherit; */
-    width: 960px;
+    width: var(--width);
     height: 550px;
     position: relative;
 }
