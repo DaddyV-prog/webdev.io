@@ -2,17 +2,24 @@
     box-sizing: border-box;
     margin: 0;
 }
+:root{
+    --bg-black: black;
+    --bg-red: red;
+    --bg-white:white;
+    --width:inherit;
+
+}
 body{
     font-size: 62.5%;
     background-image: url(anonymous-thumb.jpg);
-    width: inherit;
+    width: var(--width);
     
 }
 .header{
-    width: inherit;
+    width: var(--width);
     /* height: 100px;  */
-    background-color: black;
-    color: white;
+    background-color: var(--bg-black);
+    color: var(--bg-white);
     
     
 }
@@ -31,7 +38,7 @@ body{
 }
 
 .right{
-    background-color: white;
+    background-color: var(--bg-white);
 }
 /* @keyframes left {
     0%{
@@ -60,6 +67,8 @@ nav{
     cursor: pointer;
     margin-top: 10px;
     margin-left: 20px;
+
+    
 }
 #background_image{
     /* width: inherit; */
@@ -71,7 +80,7 @@ nav{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
     font-weight: bold;
-    color: white;
+    color: var(--bg-white);
     position: absolute;
     top: 250px;
     left: 200px;
@@ -96,8 +105,8 @@ nav{
     height: 25px;
     text-align: center;
     padding: 5px;
-    background-color: red;
-    color: white;
+    background-color: var(--bg-red);
+    color: var(--bg-white);
     position: absolute;
     top: 300px;
     left: 250px;
@@ -107,7 +116,7 @@ nav{
     left: 350px;
 }
 footer{
-    width: inherit;
+    width: var(--width);
     height: 30vh;
     background-color: whitesmoke;
     position: relative;
@@ -118,7 +127,7 @@ footer{
 }
 
 .about, em{
-    color: black;
+    color: var(--bg-black);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;
     font-weight:bold ;
@@ -129,7 +138,7 @@ footer{
 }
 em{
     font-style: normal;
-    color: red;
+    color: var(--bg-red);
     left: 125px;
     padding: 0;
 }
@@ -141,7 +150,7 @@ em{
     left: 300px;
     top: 80px;
     opacity: 0.8;
-    color: black;
+    color: var(--bg-red);
 }
 .write_up2{
     top: 93px;
