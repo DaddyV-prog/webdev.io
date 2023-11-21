@@ -71,9 +71,10 @@ nav{
 }
 #background_image{
     /* width: inherit; */
-    background-size: contain;
+    background-size: inherit;
     height: 550px;
     position: relative;
+    background-color: var(--bg-black);
 }
 .webdev {
     font-family: Georgia, 'Times New Roman', Times, serif;
