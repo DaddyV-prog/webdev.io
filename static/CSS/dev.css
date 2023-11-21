@@ -28,7 +28,7 @@ nav{
 #background_image{
     /* width: inherit; */
     width: 960px;
-    height: 500px;
+    height: 550px;
     position: relative;
 }
 .webdev {
@@ -64,15 +64,16 @@ nav{
 footer{
     width: inherit;
     height: 30vh;
-    background-color: black;
+    background-color: whitesmoke;
     position: relative;
     top: 0;
     /* display: flex;
     justify-content: center;
     align-items: center; */
 }
+
 .about, em{
-    color: white;
+    color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: xx-large;
     font-weight:bold ;
@@ -95,7 +96,7 @@ em{
     left: 300px;
     top: 80px;
     opacity: 0.8;
-    color: white;
+    color: black;
 }
 .write_up2{
     top: 93px;
