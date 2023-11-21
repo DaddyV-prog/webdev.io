@@ -71,7 +71,7 @@ nav{
 }
 #background_image{
     /* width: inherit; */
-    width: var(--width);
+    background-size: contain;
     height: 550px;
     position: relative;
 }
